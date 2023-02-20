@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: hsl(30, 38%, 92%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 450px;
+    width: 600px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img-section{
+    width: 50%;
+    height: 100%;
+}
+
+.img-producto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info-section{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+.info-section p{
+    margin: 0px;
+}
+
+
+.product-type{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.product-name{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(212, 21%, 14%);
+    line-height: 90%;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.discount-price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.original-price{
+    text-decoration: line-through;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background: hsl(158, 36%, 37%);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: hsl(157, 28%, 21%);
+}
+
+.attribution{
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 642px){
+    .product-card{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .img-section{
+        width: 100%;
+        height: 300px;
+    }
+
+    .info-section{
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    .product-name{
+        font-size: 33px;
+    }
+}
