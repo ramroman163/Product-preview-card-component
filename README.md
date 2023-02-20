@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-r_Aoj-yhrP]
+- Live Site URL: [https://astonishing-narwhal-f5a3bc.netlify.app/]
 
 ## My process
 
